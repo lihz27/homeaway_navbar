@@ -14,6 +14,6 @@ export default class App extends React.Component {
       <div id="wrapper">
         <TopNav/>
       </div>
-    )
+    ) 
   }
 }
