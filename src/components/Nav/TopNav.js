@@ -49,8 +49,6 @@ export default class TopNav extends React.Component {
                     <MenuItem>List your properties</MenuItem>
                 </NavDropdown>    
               </Nav>
-
-
               <Button id="list-your-prop-button" bsSize="large">List your property</Button>
               <div id="birdhouse-logo">
                 <img alt="HomeAway birdhouse" 
@@ -59,9 +57,6 @@ export default class TopNav extends React.Component {
               </div>
             </div>
             
-            
-              
-          
           </Navbar>
           </div>
           
