@@ -10,7 +10,6 @@ export default class Form extends React.Component {
 
     this.state = {
       value: '',
-
     };
   }
 
@@ -20,12 +19,14 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <form id={this.props.id}>
+      <form id={this.props.id} >
           <FormControl
             type="text"
             value={this.state.value}
-            placeholder="Enter text"
+            placeholder={this.props.placeholder}
             onChange={this.handleChange}
+            className='form-details'
+            id={this.props.secondId}
           />
           <FormControl.Feedback />
       </form>
